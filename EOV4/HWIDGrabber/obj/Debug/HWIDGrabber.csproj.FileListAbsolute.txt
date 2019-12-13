@@ -1,0 +1,14 @@
+D:\repos\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.exe.config
+D:\repos\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.exe
+D:\repos\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.pdb
+D:\repos\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.csproj.CoreCompileInputs.cache
+D:\repos\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.exe
+D:\repos\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.pdb
+D:\repos\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.csprojAssemblyReference.cache
+F:\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.exe.config
+F:\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.exe
+F:\EOV4\HWIDGrabber\bin\Debug\HWIDGrabber.pdb
+F:\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.csprojAssemblyReference.cache
+F:\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.csproj.CoreCompileInputs.cache
+F:\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.exe
+F:\EOV4\HWIDGrabber\obj\Debug\HWIDGrabber.pdb

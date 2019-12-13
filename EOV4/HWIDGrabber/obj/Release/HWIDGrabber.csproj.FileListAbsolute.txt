@@ -1,0 +1,6 @@
+D:\repos\EOV4\HWIDGrabber\bin\Release\HWIDGrabber.exe.config
+D:\repos\EOV4\HWIDGrabber\bin\Release\HWIDGrabber.exe
+D:\repos\EOV4\HWIDGrabber\bin\Release\HWIDGrabber.pdb
+D:\repos\EOV4\HWIDGrabber\obj\Release\HWIDGrabber.csproj.CoreCompileInputs.cache
+D:\repos\EOV4\HWIDGrabber\obj\Release\HWIDGrabber.exe
+D:\repos\EOV4\HWIDGrabber\obj\Release\HWIDGrabber.pdb
