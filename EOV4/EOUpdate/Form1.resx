@@ -118,7 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="UpdateLog.Text" xml:space="preserve">
-    <value>**1.0.0.6**
+    <value>**1.0.0.7**
++ Added github command to open eov4 github page
++ Improved help command
+** Open Source version of EOV4 is avaible on github right now! ** 
+
+**1.0.0.6**
 * Fixed Calc Command or got it working
 + Added Calcui command
 * Added the secret commands to help
@@ -133,6 +138,7 @@
 
 + Added EOUpdate.exe
 + More commands
-+ More server stuff</value>
++ More server stuff
+</value>
   </data>
 </root>

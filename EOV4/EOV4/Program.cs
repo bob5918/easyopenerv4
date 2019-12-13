@@ -58,9 +58,9 @@ namespace EOV4
         }
         static async void load()
         {
-            var version = "1.0.0.6";
+            var version = "1.0.0.7";
             WebClient client = new WebClient();
-            var motd2 = client.DownloadString("https://pastebin.com/raw/mYzmHnyB");
+           
             if (await EOV4.CheckkeyAsync(HWIDGen.Value()) == true)
             {
 
@@ -96,9 +96,8 @@ namespace EOV4
                         switch (command)
                         {
                             case "help":
-                                Console.WriteLine("Current Commands are: motd, ui, ping, quit, cls, clear, red, magenta, calc, normal, calcui, updatelog, mario, notepad, paint, time");
+                                Console.WriteLine("Current Commands are:" + "\n" + "motd -- outputs current MOTD to console" + "\n" + "ui -- Opens a new winform with the user's basic info" + "\n" + "ping -- outputs pong" + "\n" + "quit -- Closes EOV4 out" + "\n" + "cls -- Clears screen to original screen" + "\n" + "clear -- Clears the console of all text" + "\n" + "red -- Changes text color to red" + "\n" + "magenta -- Changes color to magenta" + "\n" + "calc -- Uses a normal text calculator" + "\n" + "normal -- Changes text color to normal" + "\n" + "calcui -- Opens a new winform with a calculator(WIP)" + "\n" + "updatelog -- Outputs current updatelog" + "\n" + "mario(Legacy) -- Plays mario theme song through beeps" + "\n" + "notepad -- Opens notepad.exe" + "\n" + "paint -- Opens mspaint.exe" + "\n" + "time -- outputs system's current time");
                                 Console.Write(">");
-                               
                                 break;
                             case "motd":
                                 var motd = await SQLStuff.GetSQLResultAsync("value", "SELECT * FROM settings WHERE `setting`='motd' LIMIT 1");
@@ -188,6 +187,12 @@ namespace EOV4
                                 calccommand();
                                 Console.Write(">");
 
+                                break;
+                            case "github":
+                                Console.WriteLine("https://github.com/bob5918/easyopenerv4");
+                                Process.Start("https://github.com/bob5918/easyopenerv4");
+                                Console.WriteLine("Opened webbrowser!");
+                                Console.Write(">");
                                 break;
                             case "updatelog":
                                 Console.WriteLine(client.DownloadString("https://pastebin.com/raw/mWW7N2XN"));
